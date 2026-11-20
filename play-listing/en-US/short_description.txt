@@ -1,0 +1,1 @@
+Daily app limits that lock when time's up, with a friend to keep you honest.
