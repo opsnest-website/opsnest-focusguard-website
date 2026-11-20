@@ -1,0 +1,42 @@
+FocusGuard helps you spend less time on the apps that eat your day. Set a daily limit for any app, and when the time is used up, FocusGuard locks it until tomorrow. Turning protection off takes your password, and you can choose someone you trust to be told if you break a limit.
+
+No account, no ads, no tracking. Everything FocusGuard records stays on your phone.
+
+DAILY LIMITS
+• Give any app a daily time limit, with a different limit on weekends if you like
+• When time is up you get one minute to finish what you're doing
+• Then a lock screen covers the app until the next day
+
+APP GROUPS
+• Give several apps one shared budget, for example 45 minutes of "Social" in total
+
+BLOCKED HOURS
+• Block apps at set times, such as bedtime or work hours, however much time is left
+
+ACCOUNTABILITY
+• Add one or more contacts who get a text message or a call when you break a limit
+• Optionally post a WhatsApp status, so your limits don't depend on willpower alone
+
+HARD TO BYPASS
+• A password protects your settings and is needed to turn protection off
+• Making a limit looser only takes effect after a delay, so you can't give in on impulse
+• Emergency codes for when you genuinely need more time
+• Resists being uninstalled or disabled while protection is on
+
+STREAKS AND HISTORY
+• Daily usage history and a weekly report
+• Streaks and badges for every day you stay within your limits
+
+PRIVATE BY DESIGN
+• Usage data, contacts and settings are stored on your device and encrypted
+• No FocusGuard servers, accounts, analytics or ad SDKs
+• Encrypted backup and restore, protected by a passphrase you choose
+
+PERMISSIONS AND WHY THEY'RE NEEDED
+• Usage access: to measure how long you use each app
+• Accessibility service: to see which app is open so FocusGuard can lock it, and to stop FocusGuard from being uninstalled or disabled from Settings. It does not read what you type or your messages.
+• Display over other apps: to show the lock screen
+• Device administrator: to resist being removed while protection is on
+• SMS and phone: only to alert the contacts you choose
+
+FocusGuard is made by OpsNest. Privacy policy: https://opsnest.in/focusguard/privacy/

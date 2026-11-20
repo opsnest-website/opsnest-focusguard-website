@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FocusGuard — Stick to your screen-time limits</title>
-  <meta name="description" content="FocusGuard is an Android app that locks apps when you reach the daily limits you set, with schedules, streaks and an accountability contact. No accounts, no ads, no tracking.">
+  <meta name="description" content="FocusGuard for Android: daily app limits that lock when time's up, with a friend to keep you honest. No account, no ads, no tracking.">
   <link rel="canonical" href="https://opsnest.in/focusguard/">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <meta property="og:title" content="FocusGuard by OpsNest">
-  <meta property="og:description" content="Daily app limits that actually hold. No accounts, no ads, no tracking.">
+  <meta property="og:description" content="Daily app limits that lock when time&#39;s up, with a friend to keep you honest.">
   <meta property="og:url" content="https://opsnest.in/focusguard/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +43,7 @@
       <div class="wrap">
         <h2>What it does</h2>
         <div class="grid">
-          <div class="card"><h3>Daily limits</h3><p>Set minutes per app, with a different limit for weekends if you like. You get a warning before the lock screen appears.</p></div>
+          <div class="card"><h3>Daily limits</h3><p>Set minutes per app, with a different limit for weekends if you like. When time is up you get one minute to finish, then the app locks until tomorrow.</p></div>
           <div class="card"><h3>App groups</h3><p>Give several apps one shared budget, for example 45 minutes of "Social" across all of them.</p></div>
           <div class="card"><h3>Blocked hours</h3><p>Schedules that block apps at set times, such as bedtime or work hours, whatever time is left.</p></div>
           <div class="card"><h3>Accountability</h3><p>Choose contacts who get a text or a call, or post a WhatsApp status, when you break a limit, so your limits don't depend on willpower alone.</p></div>
@@ -58,8 +58,28 @@
         <h2>Private by design</h2>
         <div class="grid">
           <div class="card"><h3>Stays on your phone</h3><p>Usage data, contacts and settings are kept on your device and encrypted. There are no FocusGuard servers.</p></div>
+          <div class="card"><h3>Encrypted backups</h3><p>Back up and restore your setup with a file protected by a passphrase you choose.</p></div>
           <div class="card"><h3>No tracking</h3><p>No accounts, no analytics and no ad SDKs. <a href="privacy/">Read the privacy policy</a>.</p></div>
         </div>
+      </div>
+    </section>
+
+    <section id="permissions">
+      <div class="wrap narrow">
+        <h2>Permissions and why they're needed</h2>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th scope="col">Permission</th><th scope="col">What FocusGuard uses it for</th></tr></thead>
+            <tbody>
+              <tr><td>Usage access</td><td>Measuring how long you use each app</td></tr>
+              <tr><td>Accessibility service</td><td>Seeing which app is open so it can be locked, and stopping FocusGuard from being uninstalled or disabled from Settings. It does not read what you type or your messages.</td></tr>
+              <tr><td>Display over other apps</td><td>Showing the lock screen</td></tr>
+              <tr><td>Device administrator</td><td>Resisting removal while protection is on</td></tr>
+              <tr><td>SMS and phone</td><td>Alerting only the contacts you choose</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Full details are in the <a href="privacy/">privacy policy</a>.</p>
       </div>
     </section>
 

@@ -18,6 +18,7 @@ site/                 static site, no build step
   privacy/index.html  privacy policy
   styles.css
   assets/icon.svg
+play-listing/en-US/   Google Play listing: title, short and full description, images/icon.png (512×512)
 ```
 
 Links inside `site/` are relative, so the site works wherever it's served from.
@@ -33,6 +34,12 @@ Preview locally:
 ```bash
 python3 -m http.server -d site 8000   # http://localhost:8000
 ```
+
+## Store listing
+
+`play-listing/<locale>/` holds the Google Play text in the fastlane layout, so it can be uploaded
+automatically later. Limits: title 30 characters, short description 80, full description 4,000.
+Keep the landing page and the listing describing the same features.
 
 ## Updating the privacy policy
 
