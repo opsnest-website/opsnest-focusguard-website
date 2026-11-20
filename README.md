@@ -18,7 +18,7 @@ site/                 static site, no build step
   privacy/index.html  privacy policy
   styles.css
   assets/icon.svg
-play-listing/en-US/   Google Play listing: title, short and full description, images/icon.png (512×512)
+play-listing/en-US/   Google Play listing: title, short and full description, images/icon.png (512×512), images/featureGraphic.png (1024×500)
 ```
 
 Links inside `site/` are relative, so the site works wherever it's served from.
