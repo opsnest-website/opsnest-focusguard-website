@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FocusGuard Privacy Policy</title>
+  <meta name="description" content="How the FocusGuard Android app handles your data: everything stays on your device, with no accounts, analytics, ads or tracking.">
+  <link rel="canonical" href="https://opsnest.in/focusguard/privacy/">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/icon.svg" alt="">FocusGuard</a>
+      <nav class="nav">
+        <a href="../#features">Features</a>
+        <a href="https://github.com/opsnest-website/opsnest-focusguard-website/releases">Download</a>
+        <a href="./" aria-current="page">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="doc wrap narrow">
+    <h1>FocusGuard Privacy Policy</h1>
+    <p class="meta">Effective date: 20 November 2026</p>
+
+    <p>This policy explains how the FocusGuard Android app (package <code>app.opsnest.focusguard</code>), published by OpsNest, handles your data. FocusGuard helps you keep to app-time limits you set yourself.</p>
+
+    <div class="summary">
+      <h2>Summary</h2>
+      <ul>
+        <li>FocusGuard has <strong>no accounts, no analytics, no ads and no tracking</strong>.</li>
+        <li>Everything the app records <strong>stays on your device</strong>. We don't run servers that receive your data.</li>
+        <li>Data leaves your device only in the situations listed under <a href="#leaves">When data leaves your device</a>, and only because you turned those features on or started them yourself.</li>
+      </ul>
+    </div>
+
+    <h2>Data the app uses and stores on your device</h2>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th scope="col">Data</th><th scope="col">Why it's used</th><th scope="col">Where it's kept</th></tr></thead>
+        <tbody>
+          <tr><td>App usage time (which apps you open and for how long), via Usage Access</td><td>To measure time against your limits and show your history</td><td>On your device only</td></tr>
+          <tr><td>Screen information, via the Accessibility service</td><td>
+            <ul>
+              <li>Which app is in front, to show the lock screen when a limit or blocked period applies.</li>
+              <li>The text on Android Settings and app-installer screens, to catch attempts to uninstall or disable FocusGuard.</li>
+              <li>Only if you turn on the WhatsApp status alert: WhatsApp's buttons, so FocusGuard can post that status for you.</li>
+            </ul>
+            FocusGuard does not read what you type, your messages, passwords, or the content of other apps.</td><td>Never stored or sent anywhere. Only the usage totals above are kept.</td></tr>
+          <tr><td>List of installed apps</td><td>So you can choose which apps to limit</td><td>Not stored, apart from the apps you choose</td></tr>
+          <tr><td>Accountability contacts (name and phone number)</td><td>To alert the people you chose when you break a limit</td><td>On your device only, encrypted</td></tr>
+          <tr><td>Your FocusGuard password and emergency codes</td><td>To protect your settings</td><td>On your device only. The password is stored as a salted hash, and codes are encrypted.</td></tr>
+          <tr><td>Limits, schedules, groups, streaks, badges and history</td><td>The app's core features</td><td>On your device only</td></tr>
+          <tr><td>Debug log</td><td>To help fix problems</td><td>On your device only, until you choose to share it</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>FocusGuard picks contacts through Android's contact picker. It does <strong>not</strong> read your address book.</p>
+
+    <h2 id="leaves">When data leaves your device</h2>
+    <ol>
+      <li><strong>Accountability alerts (SMS and phone call).</strong> If you add accountability contacts and turn on alerts, FocusGuard sends an SMS from your phone, or places a call, to those contacts when a limit is broken or someone tries to remove or disable FocusGuard. The message says which app or limit was involved. Your mobile carrier delivers it, and normal carrier charges may apply.</li>
+      <li><strong>WhatsApp status (optional).</strong> If you turn this on, FocusGuard opens WhatsApp and posts the alert message as a text status. The people your WhatsApp status privacy settings allow can see it, and WhatsApp's own privacy policy applies.</li>
+      <li><strong>Password manager (optional).</strong> If you choose to save your FocusGuard password, it is passed to your device's password manager (for example Google Password Manager) through Android's Credential Manager. The password manager's own privacy policy then applies.</li>
+      <li><strong>Update check (optional).</strong> If you turn on update checks, the app asks GitHub's public API whether a newer version exists. Like any web request, GitHub sees your IP address. No personal data is sent. See <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</li>
+      <li><strong>Things you share yourself.</strong> Backups, emergency codes and debug reports go only where you send them, using Android's share menu. Backup files are encrypted with a passphrase you choose.</li>
+    </ol>
+    <p>We do <strong>not</strong> sell your data, share it with advertisers or data brokers, or use it for any purpose other than the app's features.</p>
+
+    <h2>Device administrator and device owner</h2>
+    <p>If you turn on device administrator or device owner mode, FocusGuard uses it only to stop the app from being uninstalled or disabled without your password. It does not use these permissions to access your data.</p>
+
+    <h2>Keeping and deleting your data</h2>
+    <p>Your data stays on your device until you delete it. You can delete everything by clearing FocusGuard's data in Android settings or by uninstalling the app, after turning off protection with your password. SMS messages already sent to your contacts are kept on their phones, and we cannot delete them.</p>
+
+    <h2>Children</h2>
+    <p>FocusGuard is not directed at children under 13, and we do not knowingly collect personal information from them.</p>
+
+    <h2>Security</h2>
+    <p>Sensitive values are encrypted with keys held in the Android Keystore. Because nothing is sent to us, there is no server copy of your data that could be breached.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, we will update this page and the effective date above.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this policy, <a href="https://github.com/opsnest-website/opsnest-focusguard-website/issues">open an issue on GitHub</a>.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>FocusGuard is made by <a href="https://opsnest.in/">OpsNest</a>.</span>
+      <span><a href="../">FocusGuard home</a> · <a href="https://github.com/opsnest-website/opsnest-focusguard-website/issues">Contact &amp; feedback</a></span>
+    </div>
+  </footer>
+</body>
+</html>
